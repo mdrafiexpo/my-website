@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #eee;
+    background: #121212;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Buttons */
+.btn-primary {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 15px;
+    background: #4CAF50;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #45a049;
+    transform: translateY(-3px);
+}
+
+/* Header */
+header {
+    height: 100vh;
+    background: url('computer_man.png.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+.header-overlay {
+    background-color: rgba(0,0,0,0.6); /* dark overlay */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #4CAF50;
+}
+
+header p {
+    font-size: 1.3em;
+    margin: 10px 0 20px;
+    color: #fff;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4CAF50;
+    font-size: 2em;
+}
+
+/* About Section */
+#about p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #ccc;
+}
+
+/* Skills List */
+#skills ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: auto;
+}
+
+#skills li {
+    background: #1f1f1f;
+    margin: 10px 0;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #4CAF50;
+    transition: 0.3s;
+}
+
+#skills li:hover {
+    background: #333333;
+}
+
+/* Portfolio */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background: #1f1f1f;
+    padding: 25px 20px;
+    border-radius: 15px;
+    width: 260px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.7);
+}
+
+.project-card h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Contact */
+#contact p {
+    text-align: center;
+    font-size: 1.1em;
+    margin: 8px 0;
+}
+
+#contact a {
+    color: #fefefe;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+}
